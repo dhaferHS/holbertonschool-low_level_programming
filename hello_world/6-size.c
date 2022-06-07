@@ -1,5 +1,9 @@
 #include <stdio.h>
-void main(void)
+/**
+ * main - a proces that show u the size of the file
+ * Return: Always (0) sucesses
+ */
+int main(void)
 {
   int i;
   clrscr();
