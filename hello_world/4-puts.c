@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
-* prints exactly Programming is like building a multilingual puzzle, followed by a new line using the function puts
-* Return: Always 0 (Success)
-*/
-	int main(void)
+ * main - a fonction tha print a specific msg
+ * Return: (0) sucesses
+ */
+int main(void)
 {
-	puts ("\"Programming is like building a multilingual puzzle");
-    	return (0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
