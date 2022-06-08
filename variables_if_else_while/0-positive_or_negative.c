@@ -1,22 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
 /**
- * main - execute file
+ * main - execute file that conatin rondom numbers
  * Return: 0
  */
 int main(void)
 {
-int n;
+	int n ;
 
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-/* your code goes there */
+	srand (time(0));
+	n = rand () - RAND_MAX / 2;
+
 if (n > 0)
 {
-printf("%d is positive\n", n);
+	printf("%d is positive \n", n);
 }
 else if (n == 0)
 {
