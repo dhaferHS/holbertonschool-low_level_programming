@@ -17,15 +17,15 @@ n = rand() - RAND_MAX / 2;
 printf(" %d ", rand());
 if (n > 0)
 {
-printf("%d is Positive", n);
+printf("%d is Positive\n", n);
 }
 else if (n == 0)
 {
-printf("is zero.");
+printf("is zero\n");
 }
 	else
 {
-printf("%d is Negative", n);
+printf("%d is Negative\n", n);
 };
 
 	return (0);
