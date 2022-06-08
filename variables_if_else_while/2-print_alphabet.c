@@ -1,5 +1,6 @@
 #include <stdio.h>
-/** main - Declare a variable with the first member of the range [a - z]
+/**
+ * main - Declare a variable with the first member of the range [a - z]
  *
  *Return: 0
  */
