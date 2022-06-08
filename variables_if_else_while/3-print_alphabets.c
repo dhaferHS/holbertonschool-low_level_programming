@@ -11,7 +11,7 @@ for  (a = 'a'; a <= 'z'; a++)
 {
 putchar(a);
 };
-for  (A = 'a'; A <= 'z'; A++)
+for  (A = 'A'; A <= 'Z'; A++)
 {
 putchar(A);
 };
