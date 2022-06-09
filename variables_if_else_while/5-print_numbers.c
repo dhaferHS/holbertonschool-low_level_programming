@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - printeg numbers from10 to 0
+ * main - printeg numbers from10 to zero
  *
  * Returen: 0
  */
