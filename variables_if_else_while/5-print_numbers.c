@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - printeg numbers from10 to zero
+ * main - printing numbers from 10 to zero
  *
- * Returen: 0
+ * Return: 0
  */
 int main(void)
 {
