@@ -1,18 +1,16 @@
+#include "main.h"
 #include <stdio.h>
-void print_alphabet(void);
 /**
- * main - Declare a variable with the first member of the range [a - z]
+ * print_alphabet - print_alphabet [a - z]
  *
- *Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
 char alphabet = 'a';
 while (alphabet <= 'z')
 {
-putchar(alphabet);
+_putchar(alphabet);
 alphabet++;
 }
-putchar('\n');
-return (0);
+_putchar('\n');
 }
