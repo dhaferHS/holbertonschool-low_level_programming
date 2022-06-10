@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _ads - computes the absolute value
+ * _ads - check the code
  *
  * @i: the number to check
  * Return: Always 0.
