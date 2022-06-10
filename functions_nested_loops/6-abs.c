@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _ads - check the code
+ * _abs - check the code
  *
  * @i: the number to check
  * Return: Always 0.
