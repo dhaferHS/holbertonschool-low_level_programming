@@ -1,8 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * void print_alphabet_x10 - print_alphabet
+ * print_alphabet_x10 - print_alphabet
  *
+ * Return: 0
  */
 void print_alphabet_x10(void)
 {
