@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * mul - check the code.
+ * mul - multiplie numbers 
  * @c: the digit
  * Return: 0
  */
