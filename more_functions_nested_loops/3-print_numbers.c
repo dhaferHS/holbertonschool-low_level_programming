@@ -3,7 +3,6 @@
 /**
  * print_numbers - print numbers 0-9
  *
- *@t: the number
  * Return: void
  */
 void print_numbers(void)
