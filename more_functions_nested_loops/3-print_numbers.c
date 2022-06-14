@@ -2,9 +2,9 @@
 #include <stdio.h>
 /**
  * print_numbers - print numbers 0-9
- * 
- *@t: the number
  *
+ *@t: the number
+ * Return: void
  */
 void print_numbers(void)
 {
@@ -15,4 +15,5 @@ _putchar(t + '0');
 t++;
 }
 _putchar('\n');
+
 }
