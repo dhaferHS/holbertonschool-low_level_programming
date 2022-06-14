@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  print_line - print lines
+ * print_line - print lines
  * @n: number of _
  */
 void print_line(int n)
