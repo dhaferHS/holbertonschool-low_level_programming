@@ -1,19 +1,16 @@
 #include "main.h"
 
 /**
- * print_diagonal - print diagonal
- *
- *@n: number of lignes
- *
- * Return: 0
+ *  print_diagonal - print lines
+ * @n: number of diogonal lines
  */
 void print_diagonal(int n)
 {
-int i, j;
+int i, k;
 
 for (i = 0; i < n; i++)
 {
-for (j = 0; j < i; j++)
+for (k = 0; k < i; k++)
 {
 _putchar(' ');
 }
