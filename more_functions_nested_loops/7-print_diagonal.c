@@ -3,7 +3,9 @@
 /**
  * print_diagonal - print diagonal
  *
- * @n: number of lignes
+ *@n: number of lignes
+ *@i: number of lignes
+ *@j: number of lignes
  *
  * Return: 0
  */
