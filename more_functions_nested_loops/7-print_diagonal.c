@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  print_diagonal - print lines
+ *  print_diagonal - print diagonal 
  * @n: number of diogonal lines
  * Return: void. 
  */
@@ -23,4 +23,5 @@ _putchar('\n');
 else 
 {
 _putchar('\n');
+}
 }
