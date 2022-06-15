@@ -12,9 +12,14 @@ for (i = 0; i < n; i++)
 {
 for (k = 0; k < i; k++)
 {
+if ((n == j) && ( n < 0)) 
+{
 _putchar(' ');
 }
+else
+{
 _putchar('\\');
 _putchar('\n');
+}
 }
 }
