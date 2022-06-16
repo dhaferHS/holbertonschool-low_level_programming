@@ -18,7 +18,7 @@ for(j=1; j<=i; j++)
 {
 _putchar('#');
 }
-printf('\n');
+_putchar('\n');
 }
 return (0);
 }
