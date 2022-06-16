@@ -15,7 +15,7 @@ for (n = 0 ; n < size ; n++)
 {
 for (i = 0; i < size; i++)
 {
-_putchar("#");
+_putchar('#');
 }
 }
 }
