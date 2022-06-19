@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * swap_int - a parameter to swap two integers
+ * _strlen - a parameter to returns the length of a string
  *
  * @s: string
  *
