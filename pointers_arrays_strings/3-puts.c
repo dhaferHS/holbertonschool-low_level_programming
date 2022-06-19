@@ -4,7 +4,7 @@
 /**
  * _puts - check the code
  *
- *
+ *@str: variable returns the length of a string
  * Return: Always 0.
  */
 void _puts(char *str)
