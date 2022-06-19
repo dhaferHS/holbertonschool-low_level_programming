@@ -6,7 +6,7 @@
  *
  * @a: variable a
  * @b: variable b
- * 
+ *
  * Return: Always 0.
  */
 void swap_int(int *a, int *b)
