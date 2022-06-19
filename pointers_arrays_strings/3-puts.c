@@ -2,12 +2,17 @@
 #include <stdio.h>
 
 /**
- * _puts - a parameter to print a string
+ * _puts - check code
  *
  *
  * Return: Always 0.
  */
 void _puts(char *str)
 {
-puts(*str);
+while (*str != '\0')
+{
+_putchar(*str);
+str++;
+}
+_putchar('\n');
 }
