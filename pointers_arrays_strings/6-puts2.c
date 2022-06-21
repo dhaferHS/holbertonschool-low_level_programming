@@ -2,6 +2,25 @@
 #include <stdio.h>
 #include <string.h>
 /**
+ * _strlen - check the code
+ *
+ * @s: a parameter to returns the length of a string
+ *
+ * Return: Always 0.
+ */
+int _strlen(char *s)
+{
+	int i;
+
+	i = 0;
+	while (*s != '\0')
+	{
+	i++;
+	s++;
+	}
+	return (i);
+}
+/**
  * puts2 - prints character of a string
  *
  *@str: variable of a string
@@ -9,11 +28,10 @@
  */
 void puts2(char *str)
 {
-while (*str != '\0')
-{
-	if (*str % 2 == 0)
-		_putchar(*str);
-	str++;
-}
-_putchar('\n');
+	int i;
+	int len = strlen(str);
+
+	for (i = 0; i <= len; i += 2)
+		putchar(str[i]);
+	_putchar('\n');
 }
