@@ -8,7 +8,7 @@
  * Return: Always 0.
  */
 void rev_string(char *s)
-{    
+{   
     int i;
     char c;
     int len = strlen(s);
