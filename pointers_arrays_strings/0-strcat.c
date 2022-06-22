@@ -18,6 +18,7 @@ l = strlen(dest);
 while (src[i] != '\0')
 {
 	dest[l] = src[i];
+	l++;
 	i++;
 }
 dest[l] = '\0';
