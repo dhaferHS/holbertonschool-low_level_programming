@@ -19,8 +19,8 @@ for (i = 0; i < n; i++)
 {
 *dest[i]= *src[i];
 i++;
-dest++;
-src++;
+*dest++;
+*src++;
 *dest = '\0';
 }
 return (dest);
