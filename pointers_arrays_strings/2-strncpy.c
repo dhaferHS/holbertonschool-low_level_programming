@@ -20,7 +20,7 @@ for (i = 0; i < n; i++)
 *(dest + i) = *(src + i);
 dest++;
 src++;
-*dest = '\0';
+*src = '\0';
 }
 return (dest);
 }
