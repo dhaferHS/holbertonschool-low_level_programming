@@ -4,7 +4,7 @@
 /**
  * _strncat - concatenates two strings
  *
- *@dest: sting one
+ *@dest: string one
  *@src: string two
  *@n: bytes
  * Return: dest
@@ -15,7 +15,7 @@ char *_strncat(char *dest, char *src, int n)
 	char *i;
 
 i = dest + strlen(dest);
-while (*src !='\0' && n--)
+while (*src != '\0' && n--)
 	*i++ = *src++;
 *i = '\0';
 return (dest);
