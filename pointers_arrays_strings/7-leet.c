@@ -12,13 +12,12 @@ char *leet(char *str)
 	int a[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 	int n[] = {'4', '3', '0', '7', '1'};
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (i = 0; str[i]; i++)
 	{
-	while (str[i] == a[i])
-{		str[i] = n[i / 2];
-			i++;
-	}
-	}
-	return (str);
+if (str[i] == a[i])
+{
+n[i] = str[i];
 }
-
+}
+return (str);
+}
