@@ -12,20 +12,20 @@ char *_strchr(char *s, char c)
 {
 	char *position = NULL;
 	int i = 0;
-if ( c != '\0')
-{
-for (i = 0; s[i] != '\0'; i++)
+	if (!c)
 	{
-		if (s[i] == c)
+		for (i = 0; s[i] != '\0'; i++)
 		{
-			position = &s[i];
-			break;
+			if (s[i] == c)
+			{
+				position = &s[i];
+				break;
+			}
 		}
-
+		return (position);
 	}
-	return (position);
-}
-else {
-	return(NULL);
-}
+	else
+	{
+		return (NULL);
+	}
 }
