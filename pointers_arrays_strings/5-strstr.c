@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * _strpbrk - searches a string for any of a set of bytes
+ * _strstr - searches a string for any of a set of bytes
  * @haystack: string one
  * @needle: string two
  *
