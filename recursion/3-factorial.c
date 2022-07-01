@@ -3,7 +3,7 @@
 #include <string.h>
 /**
  * factorial - print factorial
- * @s: string
+ * @n: number
  *
  * Return: 0
  */
@@ -13,5 +13,5 @@ if (n < 0)
 	return (-1);
 if (n == 0)
 	return (1);
-return(n * factorial(n - 1));
+return (n * factorial(n - 1));
 }
