@@ -5,7 +5,7 @@
  * _sqrt -  returns the natural square root of a number.
  * @n: number
  * @i: number
- * 
+ *
  * Return: square root
  */
 int _sqrt(int n, int i)
