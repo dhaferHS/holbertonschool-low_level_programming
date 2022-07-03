@@ -13,10 +13,8 @@ int main(int argc, char **argv)
 
 if ((argc !='\0') && (argc == 3))
 {
-for (i = 0; i < argc; i++)
-{
-argv[i] = a;
-argv[i + 1] = b;
+argv[1] = a;
+argv[2] = b;
 sum = a * b;
 printf("%d\n", sum);
 }
@@ -26,5 +24,4 @@ else
 {
 		printf("Error");
 	return (1);
-}
 }
