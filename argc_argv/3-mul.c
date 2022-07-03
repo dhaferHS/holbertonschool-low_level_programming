@@ -13,15 +13,16 @@ int main(int argc, char **argv)
 (void)argv;
 if (argc !='\0')
 {
+	for (i = 0; i < argc; i++)
 argc[1] = a;
 argc[2] = b;
-sum = a +b;
-printf("%d\n", sum)
+sum = a + b;
+printf("%d\n", sum);
 return (0);
 }
 else
 {
-		printf(Error).
+		printf(Error);
 	return (1);
 }
 }
