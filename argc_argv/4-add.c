@@ -13,8 +13,6 @@ int main(int argc, char **argv)
 for (x = 0; x < argc; x++)
 {
 	for (y = 0; argv[x][y]; y++)
-	{
-	
 		if (argv[x][y] < 48 || argv[x][y] > 57)
 	{		
 		printf("Error\n");
@@ -24,5 +22,4 @@ for (x = 0; x < argc; x++)
 }
 printf("%d\n", t);
 return (0);
-}
 }
