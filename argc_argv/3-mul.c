@@ -15,8 +15,8 @@ if (argc !='\0')
 {
 for (i = 0; i < argc; i++)
 {
-argv[1] = a;
-argv[2] = b;
+argv[i] = a;
+argv[i + 1] = b;
 sum = a + b;
 printf("%d\n", sum);
 }
