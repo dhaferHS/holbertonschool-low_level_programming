@@ -22,5 +22,6 @@ for (x = 0; x < argc; x++)
 	}
 	t += atoi(argv[x]);
 }
+printf("d\n", t);
 return (0);
 }
