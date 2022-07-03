@@ -10,13 +10,13 @@
 int main(int argc, char **argv)
 {
 	int i, a, b, sum;
-(void)argv;
+
 if (argc !='\0')
 {
 for (i = 0; i < argc; i++)
 {
-argc[1] = a;
-argc[2] = b;
+argv[1] = a;
+argv[2] = b;
 sum = a + b;
 printf("%d\n", sum);
 }
