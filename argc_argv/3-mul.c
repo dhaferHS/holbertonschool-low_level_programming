@@ -17,7 +17,7 @@ for (i = 0; i < argc; i++)
 {
 argv[i] = a;
 argv[i + 1] = b;
-sum = a + b;
+sum = a * b;
 printf("%d\n", sum);
 }
 return (0);
