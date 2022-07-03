@@ -10,7 +10,7 @@
 int main(int argc, char **argv)
 {
 	int x, y, t;
-for (x = 0; x < argc; x++)
+for (x = 1; x < argc; x++)
 {
 	for (y = 0; argv[x][y]; y++)
 		if (argv[x][y] < 48 || argv[x][y] > 57)
