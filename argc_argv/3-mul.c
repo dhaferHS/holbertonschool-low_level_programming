@@ -9,19 +9,19 @@
  */
 int main(int argc, char **argv)
 {
-	int i, a, b, sum;
+	int i, a, b;
 
 if ((argc !='\0') && (argc == 3))
 {
 a = argv[1];
 b = argv[2];
-sum = a * b;
-printf("%d\n", sum);
-}
-return (0);
+
+printf("%d\n", a * b);
 }
 else
 {
-		printf("Error");
+		printf("Error\n");
 	return (1);
+}
+return (0);
 }
