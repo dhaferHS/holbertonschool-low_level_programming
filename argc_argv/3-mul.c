@@ -13,8 +13,8 @@ int main(int argc, char **argv)
 (void)argv;
 if (argc !='\0')
 {
-argc[1] == a;
-argc[2] == b;
+argc[1] = a;
+argc[2] = b;
 sum = a +b;
 printf("%d\n", sum)
 return (0);
