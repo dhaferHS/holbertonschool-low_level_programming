@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 /**
- * main- program that print the name of the files followed by a new name
+ * main- program that prints the number of arguments passed into it
  *
  * @argc: argc
  * @argv: argv
