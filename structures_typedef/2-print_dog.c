@@ -2,10 +2,7 @@
 #include"dog.h"
 
 /**
- * init_dog - tell the name and the age
- *@name: name of the dog
- *@age: age of the dog
- *@owner: name of the owner
+ * print_dog - tell the name and the age
  *@d: pointer for the dog informations
  */
 void print_dog(struct dog *d)
