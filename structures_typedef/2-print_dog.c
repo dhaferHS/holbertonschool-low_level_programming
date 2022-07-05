@@ -8,12 +8,12 @@
  *@owner: name of the owner
  *@d: pointer for the dog informations
  */
-void init_dog(struct dog *d, char *name, float age, char *owner)
+void print_dog(struct dog *d)
 {
 	if (d != NULL)
 {
 
-		if (name != NULL)
+		if (d->name != NULL)
 {
 			printf("Name: %s\n", d->name);
 }
@@ -22,7 +22,7 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 			printf("Name: (nil)");
 }
 
-		if (age > 0)
+		if (d->age > 0)
 {
 			printf("Age: %f\n", d->age);
 }
@@ -31,7 +31,7 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 			printf("age: (nil)");
 }
 
-		if (owner != NULL)
+		if (d->owner != NULL)
 {
 			printf("Owner: %s\n", d->owner);
 }
