@@ -3,14 +3,14 @@
 
 /**
  * print_name - print name
- *@name: name 
- *@f: pointer of a function 
- *@owner: name of the owner
- *@d: pointer for the dog informations
+ *@name: name
+ *
+ * @f: pointer  function
+ * Return: void
  */
 void print_name(char *name, void (*f)(char *))
 {
-	if (name == NULL || f == NULL)	
+	if (name == NULL || f == NULL)
 	{
 return;
 	}
