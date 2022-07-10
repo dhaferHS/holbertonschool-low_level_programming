@@ -13,4 +13,4 @@ fclean:
 		${RM} *~ $(NAME)
 		${RM} *~ $(OBJ)
 		
-re: fclean * $(OBJ)
+re: fclean all
