@@ -9,7 +9,7 @@
  */
 char *_strdup(char *str)
 {
-int size, i;
+int size;
 	char *a, *b;
 size = strlen(str);
 
