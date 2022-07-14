@@ -19,11 +19,11 @@ size = strlen(str);
 	if (a == NULL)
 		return (NULL);
 
-	while (i < size)
-	{
-	b[i] = str[i];
-		i++;
-	}
+	b = a;
+
+	while (*str)
+		*b++ = *str++;
+
 	return (a);
 
 }
