@@ -5,13 +5,13 @@
  *
  * @str: char
  *
- * Return: Nothing
+ * Return: 0
  */
 char *_strdup(char *str)
 {
-
+int size, i;
 	char *a, *b;
-	int size = strlen(str);
+size = strlen(str);
 
 	if (str == NULL)
 		return (NULL);
@@ -19,11 +19,11 @@ char *_strdup(char *str)
 	if (a == NULL)
 		return (NULL);
 
-	b = a;
-
-	while (*str)
-		*b++ = *str++;
-
+	while (i < size)
+	{
+	b[i] = str[i];
+		i++;
+	}
 	return (a);
 
 }
