@@ -3,7 +3,7 @@
  * binary_to_uint - function that converts a binary number to an unsigned int
  * @b: sring
  *
- * Return : converted number, or 0
+ * Return : 0
  */
 unsigned int binary_to_uint(const char *b)
 {
