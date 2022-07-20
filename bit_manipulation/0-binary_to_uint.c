@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * binary_to_uint - converts a binary number to an unsigned int
+ * binary_to_uint - converts a binary number to an int
  * @b: sring
  *
  * Return : converted number, or 0
